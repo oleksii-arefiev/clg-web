@@ -1,0 +1,1018 @@
+<linker>
+  <assembly fullname="CollegeDateSim, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AspectRatioParametersConfiguration" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.AnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.DateParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.ParallaxEffectAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.ScaleAndHighlightOnScreenTransition" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.SpineAnimatorSystem.SpineAnimator" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.SpriteParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.Audio.AudioFX" preserve="all" />
+    <type fullname="CollegeDateSim.Audio.AudioLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.Audio.AudioManager" preserve="all" />
+    <type fullname="CollegeDateSim.Audio.AudioSpriteUIWindowFX" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassBuyPopUpController" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassBuyPopUpReward" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassBuyPopUpRewardContainer" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassSlider" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassSlotButton" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassWindow" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.UI.BattlePassRewardBlock" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.UI.BattlePassRewardContainer" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.UI.BattlePassRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.BattlePassSystem.UI.BattlePassTimeLeftTimer" preserve="all" />
+    <type fullname="CollegeDateSim.BetSystem.BetSettingPreset" preserve="all" />
+    <type fullname="CollegeDateSim.BetSystem.BetSettingsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.BotSystem.BotLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CameraController" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.BlurCamera" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.BlurEnabler" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.CameraMovementController" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.GestureController" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.ScalableUIElement" preserve="all" />
+    <type fullname="CollegeDateSim.CameraSystem.ScalableUIElementsController" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.Character" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.CharacterDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.CharactersDateVisualDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoAnimationCard" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoWindow" preserve="all" />
+    <type fullname="CollegeDateSim.ChatSystem.ChatDataManager" preserve="all" />
+    <type fullname="CollegeDateSim.CohortSystem.CohortLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionsSettings" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionsTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionActivator" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionPhotoView" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionScrollerWindow" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionTabNotifier" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionWindow" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemCollectionsDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemCollectionsTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemsCollectionRewardWindow" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.BubbleNotification" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsButton" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsController" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsSlotMachineElement" preserve="all" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsWindow" preserve="all" />
+    <type fullname="CollegeDateSim.ComponentToggler" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.AfterAnyPromoSpawnedSpinPassedCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.AfterPromoSpawnedSlotMachineSpinCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.BattlePassActiveCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.FortuneWheelTutorialDoneTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.GameStartTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.ItemsCollectionActiveCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.LogicalORTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.NotEnoughResourceTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.PayerAbilityCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.PromoSpawnDayCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.QuestActiveCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.ResourceRecordTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.ResourceThresholdTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.FallInRowCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.InSequenceMaxAmountCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.IsCombinationBlockedCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.ItemsCollectionAndQuestCheckCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.ItemsCollectionExcessSpawnPreventCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.OtherOptionInSequenceAddedCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.RobberyCell.SequenceLengthConditionSwitch" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.SlotCombinationCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.SlotMachineCondition" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.SlotMachineConditionLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.ConditionSystem.SlotMachineTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskButton" preserve="all" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskProgressView" preserve="all" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Data.GameSettings" preserve="all" />
+    <type fullname="CollegeDateSim.EconomicsSystem.EconomicsManager" preserve="all" />
+    <type fullname="CollegeDateSim.ErrorLocalizationSystem.ErrorLocalizationLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.Firebase.FirebaseManager" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.CollectedRewardsView" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.Cookie" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.PredictionEventGameController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.PredictionEventGameScreen" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.PredictionFaderView" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.ResultViewController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.TakePopup" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Meta.PredictionEventButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Meta.PredictionEventSlotMachineButton" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Meta.PredictionEventWindow" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventSettings" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.AnswerView" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.AnswerViewsController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizEventWindow" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizGameController" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizGameWindow" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizInfo" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizLastLevelWindow" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizSlotMachineButton" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.RewardPointView" preserve="all" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.ScoreView" preserve="all" />
+    <type fullname="CollegeDateSim.GiftSystem.GiftMoveAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.GiftSystem.GiftScaleAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.GiftSystem.RoomFadedGiftView" preserve="all" />
+    <type fullname="CollegeDateSim.GiftSystem.RoomGiftView" preserve="all" />
+    <type fullname="CollegeDateSim.GirlChooseSystem.GirlChooseSettings" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectBarSlot" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectCloseWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectCore.HiddenObjectFailClickTimer" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectCore.HiddenObjectTimerWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectGameLoop.HiddenObjectGameController" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectItem" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectItemData" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectItemsBar" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectLoseWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.EventWindow.HiddenObjectChestBuyButton" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.EventWindow.HiddenObjectChestInfoWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.EventWindow.HiddenObjectEventWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.HiddenObjectButton" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.HiddenObjectButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.HiddenObjectEndEventWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.HiddenObjectTutorialInfoWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.HiddenObjectTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectRoom" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectRoomLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectScreen" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectTopBarView" preserve="all" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectWinWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Localization.LocalizationFromPlatform" preserve="all" />
+    <type fullname="CollegeDateSim.Localization.LocalizedProductPrice" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventBarController" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventBoosterView" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventRewardHandler" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventsDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventSlotButton" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventSlotButtonContainer" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventWindow" preserve="all" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventWindowSpawner" preserve="all" />
+    <type fullname="CollegeDateSim.Managers.CoreGameManager" preserve="all" />
+    <type fullname="CollegeDateSim.Managers.GameManager" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.EnergyRecoveryModifier" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.EnergyValuePerIntervalModifier" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.IncomeModifier" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.MaxEnergyModifier" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.MonopolyDiceRollModifier" preserve="all" />
+    <type fullname="CollegeDateSim.ModifierSystem.ModifiersAppliers.VipPassExperienceModifier" preserve="all" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolySettingsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.MonopolyFlowManager" preserve="all" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.MonopolyMapsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.Network.NetworkManager" preserve="all" />
+    <type fullname="CollegeDateSim.Network.NetworkSettings" preserve="all" />
+    <type fullname="CollegeDateSim.Network.TimeSyncChecker" preserve="all" />
+    <type fullname="CollegeDateSim.NotificationSystem.NotificationsDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.NxOffer.NxOfferBannerPopup" preserve="all" />
+    <type fullname="CollegeDateSim.NxOffer.NxOfferBonusIndicator" preserve="all" />
+    <type fullname="CollegeDateSim.ParticleSystemUtils.ParticleFollower" preserve="all" />
+    <type fullname="CollegeDateSim.PromoSystem.DayProgressionPromo" preserve="all" />
+    <type fullname="CollegeDateSim.PromoSystem.NotEnoughResourceWindowInterceptor" preserve="all" />
+    <type fullname="CollegeDateSim.PromoSystem.SeasonDayProgressionPromo" preserve="all" />
+    <type fullname="CollegeDateSim.PromoSystem.TriplePack" preserve="all" />
+    <type fullname="CollegeDateSim.QuestSystem.QuestLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.QuestSystem.QuestManager" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.DateCharacter.DateBodyController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.DateCharacter.DateFaceController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.DateCharacter.SimpleFaceController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.HighlightButton" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.InterfaceUtilities.BlinkingText" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.PerRendererDataAnimation.PropertyBlockController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.PerRendererDataAnimation.TextureController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.PerRendererDataAnimation.VectorAnimator" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.PerRendererDataAnimation.VectorAnimatorHighlighter" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.PerRendererDataAnimation.VectorController" preserve="all" />
+    <type fullname="CollegeDateSim.RenderingUtilities.RoomCharacter.RoomCharacterReaction" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressBlockGeneratorDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressFullGeneratorDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressCellView" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressLineView" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressWindow" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyRewardLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.MultiplyRewardPopup" preserve="all" />
+    <type fullname="CollegeDateSim.RewardSystem.RewardLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.AutomaticRobberySequenceGenerator" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.AutomaticSequenceOption" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.CardController" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.PointingFinger" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.RobberyModeController" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.RobberyScreen" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.RobberyStartAnimationWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Roberry.TutorialRobberyWindow" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.AvailableUnlockedRoomNotifier" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.AvailableUnlockedRoomPopup" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.Room" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomScreen" preserve="all" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomSliderNotifier" preserve="all" />
+    <type fullname="CollegeDateSim.SavingSystem.SaveKeyLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Animation.SecretCharacterAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.SecretCharactersDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.SecretCollectionsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.SecretCollectionsSettings" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.HeartSliceMiniGame.HeartSliceData" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.SecretRoomButtonLogic.SecretRoomButton" preserve="all" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.SecretRoomButtonLogic.SecretRoomButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.LanguageButton" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.LanguageChooseWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.NicknameChangeWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.PromoCodeWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SettingsBuildId" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SettingsUserID" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SettingsWindowAudioController" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.StoreErrorWindowController" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SupportServiceGetEmailPopUp" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SupportServicePopUp" preserve="all" />
+    <type fullname="CollegeDateSim.Settings.SupportServiceWindow" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.ReelController" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotController" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineController" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineData" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineProgressButton" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineResourceUpdateLocker" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineSymbolAnimationModifier" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.StoreOpenButtonView" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.TournamentPointsAnimation.TournamentPointsAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.TournamentPointsAnimation.TournamentSymbol" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachine.UniversalSlotMachineSystem.HorizontalSlotMachine.UniversalHorizontalSlotMachine" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.PreviewWindowBuyButton" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharactersLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharactersPreviewWindow" preserve="all" />
+    <type fullname="CollegeDateSim.StarShopSystem.Data.StarShopLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.StarShopSystem.StarShopManager" preserve="all" />
+    <type fullname="CollegeDateSim.StoreSystem.StoreButtonNotificatorController" preserve="all" />
+    <type fullname="CollegeDateSim.StoreSystem.StoreItemPurchaseHandler" preserve="all" />
+    <type fullname="CollegeDateSim.StoreSystem.StoreItemsLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.SupportService.SupportServiceInvoker" preserve="all" />
+    <type fullname="CollegeDateSim.TransitionScreen" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.RoomTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.FingerPointerController" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.QuestSystem.QuestTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.TutorialAnimatorCallbacks" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.TutorialController" preserve="all" />
+    <type fullname="CollegeDateSim.Tutorial.TutorialDialog" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Account.AccountDeletionNotifyWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Account.AccountDeletionWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Account.AreYouSureDeletionWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Account.DeleteAccountInvoker" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Advertising.AdPlacementButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Advertising.AdWatchWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.BPOffsetButtonAnimatorController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.CutSceneAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.FadeGroupAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.GameScreenButtonAnimatorController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.PreloaderAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Animation.ScreenFader" preserve="all" />
+    <type fullname="CollegeDateSim.UI.AssetBundles.BundleDownloadIconController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.AssetBundles.BundleDownloadPanelController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.Button2D" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.Button2DBlockerOnSlotMachineSpin" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.ColorTintSpriteButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.IconTextColorSwapButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.MultipleObjectsColorChangeButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.MultipleSpritesSwapButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.OpenStoreButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.PhysicButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.ScaleButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.ShiftButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.SliderButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.SpriteButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.SpriteSwapSpriteButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.SwipeHandlerButton2D" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.TextColorSwapButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Buttons.Toggle2D" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.ChatButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.ChatView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.ChatWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.CollectionsButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.PhotoMessageView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.PhotoView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ChatWindow.TextMessageView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionCardReceiveView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionCardReceiveWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionCardsWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionCardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionRewardWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionsStarChestShopWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionsWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionViewBlock" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.HiddenObjectIcon" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.BaseCollectionItemWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.CollectionItemView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionNotifier" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionRewardPanel" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionsWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.LastCollectionView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.StarChest" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Collections.TriplePacksScrollerWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ApplicationExitHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ButtonsViewScrollController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentResizeByText" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentsColorChanger" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.CustomHorizontalLayoutGroup" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.DependentSpriteRendererSizeByText" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.DialogPlayer" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.FixedSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.FlexibleGridLayoutGroup" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.GameObjectDisabler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ImageFiller" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.PageIndicator.PageIndicatorController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.PageIndicator.PageIndicatorSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.PageIndicator.PageIndicatorView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ParticleStarter" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ParticleSystemEffect" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ProgressPanelComponent" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ProgressSpriteChangePosition" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.RectTransformResizeByText" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.Resizers.ComponentResieByChildren" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.Resizers.ComponentResizeByRectTransform" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ResourceIndicatorAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ResourceIndicatorController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ResourcePanelController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ResourcePanelStoreButtonsController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ScaleObjectToFitRect" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.ScreenSizer" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.SpriteOrderBreaker" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.SpriteOrderChanger" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.SpriteRendererSizeByText" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.StarBoxView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.SwipeController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Components.TrailRendererEffect" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DailyRewardSystem.DailyRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DailyRewardSystem.DailyRewardViewController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DailyRewardSystem.DailyRewardWindowController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DailyRewardSystem.MonthlyRewardViewController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DailyRewardSystem.MonthRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateAnimationsContainer" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateHeartFlashController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateQuestion" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateWindowEnergyController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ErrorLocalizationSystem.ErrorLocalizationWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ErrorLocalizationSystem.StoreErrorLocalizationWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.GirlChoose.GirlChooseCardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.GirlChoose.GirlChooseWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.InternetMissingWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Localization.LocalizationFormater" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Login.GameServiceButtonGroup" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Login.LoadingBarController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Login.LoginErrorWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Login.LoginWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.MainMenu.MainMenuController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.MainMenu.NetworkConnectionButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.MainMenu.SpriteDisableOnInteractibleLost" preserve="all" />
+    <type fullname="CollegeDateSim.UI.MenuWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.AdsMultiplierSlot" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.AdsReelController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyArrowController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyCrashWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDate.AnswerOptionTextView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDate.ContinueButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDate.MonopolyDateNamePanelView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDate.MonopolyDateWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDate.QuestionTextView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDicesView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyMap" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyMoneyAdWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyPlayerController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyRewardsViewPanel" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyRollDicesButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyScreens.CutSceneGirlAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyScreens.MonopolyCutSceneScreen" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyScreens.MonopolyDateDialogManager" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyScreens.MonopolyEnterCutSceneScreen" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyTile" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.NetworkConnectionIndicatorController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PreloaderSystem.UniversalPreloaderController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PreloaderSystem.UniversalPreloaderManager" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ProgressWindow.ProgressBar" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ProgressWindow.ProgressStepView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ProgressWindow.ProgressWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ProgressWindow.ProgressWindowComponentsData" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PromoSystem.PromoButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PromoSystem.PromoPopup" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PromoSystem.PromoStoreButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.PromoSystem.PromoViewControllerButtonContainer" preserve="all" />
+    <type fullname="CollegeDateSim.UI.QuestViewSystem.QuestButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.QuestViewSystem.QuestButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.QuestViewSystem.QuestInfoWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.ResourceView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.ChestRewardController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.ConsumablePriceView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.FinalRewardResultController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.BoxRewardShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.CollectionCardRewardShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.CollectionPhotoRewardHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.CommonRewardShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.NoneRewardShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.RewardIconShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.Handlers.RewardIdRewardShowHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardDataView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardItemView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardMetaDataLibrary" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardPreviewDataView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardResultWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Robbery.AttemptsController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Robbery.AttemptView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RoomDialogView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RoomSlider.GirlRoomView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RoomSlider.RoomSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RoomSlider.RoomSliderWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.RoomSlider.RoomSlideView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SaveSystem.SaveCollisionResolveWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SaveSystem.SaveVersionView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SelectableSystem.SelectableGroup" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SettingsWindowEventTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SlotMachine.BetPopupView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SlotMachine.JackpotBarController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SpriteScroller" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SpriteScrollerSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SpriteUIWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.ChestInfoView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.RewardParametersDataView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.RewardParameterView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopBlockView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopBoxInfoWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopItemDiscountView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopItemView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopTopPanelIconView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarShopWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StarShopSystem.StarTopBarButtonHandler" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.ChestBuyWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.ChestShopItem" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.CollectionsTutorialBoxView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.PreloaderWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.StoreBoxSettings" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Store.StoreItemDataView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StoreLackOfCouponsIndicator" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StoreNeedEnergyIndicator" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StoreNeedMoneyIndicatorOnProgress" preserve="all" />
+    <type fullname="CollegeDateSim.UI.StoreNeedStarsIndicator" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Subscription.SubscriptionPassiveBonusView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Subscription.SubscriptionPurchaseRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Subscription.SubscriptionWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.SwipeAreaController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentActivateWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentButton" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentButtonController" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentCheckpointReward" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentIconSetter" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentPlayerBlock" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentPlayersSlider" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentPointsTextSetter" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentProgressWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentRewardsWindow" preserve="all" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CardFlipper" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.AutoSortingOrderChanger" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.ButtonAndFontChanger" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.CollectionCardRewardView" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.CommonParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.RewardViews.CollectionPhotoRewardViewHandler" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.RewardViews.SimpleRewardViewHandler" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.SortingOrderChanger" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.SortingOrderChangerCached" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.CommonUI.ZigzagGridLayout" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.FillController" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.AnimationCompositionController" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.ButtonScalerAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.ButtonStateScalerAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.MassColorAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.MovementAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.OpenCloseAnimationController" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.PulseAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.ScalingAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.ShackingAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.SpriteColorAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Animations.TextColorAnimation" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.SpriteRendererProgressFill" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.MoversResizers.Teleport" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.ObjectMover" preserve="all" />
+    <type fullname="CollegeDateSim.Utils.Pulse" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.BaseParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.BattlePassButtonTargetApplier" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.FlyingParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.LoopEventLauncher" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.LoopEventParticleTextureApplyer" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.ParticleController" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.ParticleQuestTargetApplier" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.ParticleReelSourceApplyer" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.ParticlesTextureApplyer" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.PointsVfxLauncher" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.SecretRoomButtonTargetApplier" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.SlotButtonProgressUpdater" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SlotMachine.SlotMachineMoneyVFXModificatorComponent" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SlotMachineEnergyVFXSpeedModifier" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SlotMachineResourceVFXSpeedModifier" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.SlotMachineVfxController" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.SlotMachineVfxEndTrigger" preserve="all" />
+    <type fullname="CollegeDateSim.Vfx.SlotMachineVfxLauncher" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SpeedModifiers.DateHeartsVFXSpeedModifier" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SpeedModifiers.MoneyVFXSpeedModifier" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.SpeedModifiers.RobberyVFXSpeedModifier" preserve="all" />
+    <type fullname="CollegeDateSim.VFX.TargetAppliers.HiddenObjectTargetApplier" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.RewardInfoView" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassLevel" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassLevelPromo" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassLevelPromoSlotController" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassLevelPromoStoreButton" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassPassiveBonusView" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassTutorialDialog" preserve="all" />
+    <type fullname="CollegeDateSim.VipPass.VipPassTutorialWindow" preserve="all" />
+    <type fullname="CollegeDateSim.WheelFortune.FortuneWheelController" preserve="all" />
+    <type fullname="CollegeDateSim.WheelFortune.WheelController" preserve="all" />
+    <type fullname="CollegeDateSim.WheelFortune.WheelFortuneResourceUpdateLocker" preserve="all" />
+    <type fullname="CollegeDateSim.WheelFortune.WheelFortuneTimer" preserve="all" />
+    <type fullname="SlotMachineCharacterAnimation" preserve="all" />
+    <type fullname="Spine.Unity.Examples.RotatorDelayed" preserve="all" />
+    <type fullname="CollegeDateSim.Animation.DateParticleController/MoveToTargetJob" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.PlayableController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Events.Button2DEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Events.ParticleSystemEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RenderingUtilities.DateCharacter.DateBodyController/BodySkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RenderingUtilities.DateCharacter.DateFaceController/FaceSkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RenderingUtilities.RoomCharacter.RoomCharacterReaction/RoomReactionSkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomCharacterView" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Animation.Scaler" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.DynamicGroupsSystem.DynamicGroupData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.DynamicGroupsSystem.DynamicGroupProbabilitiesChangeData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.DynamicGroupsSystem.DynamicGroupProbabilityDistributionRule" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.DynamicGroupsSystem.DynamicGroupsController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Data.ScreenTransition" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Events.SpriteUIWindowEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.Gameplay.PredictionEventViewController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableString" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.PanelStateData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardView/CustomIconScale" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.AccountSystem.LoginViaAccountManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Advertising.AdsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Analytics.GameAnalyticsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Analytics.RegistrationDayPreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Analytics.ResourceSourceType" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Analytics.SessionCountPreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.AnimationSpeedManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.AnimationSpeedSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.DatesAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.LivePhotoAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.LivePhotoAnimationSettings/LivePhotoGirlAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.MonopolyAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.RoomSliderNotifierAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.SecretRoomAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Animation.SlotMachineAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Assets.Scripts.BotSystem.BotDifficultyData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Audio.AudioInfo" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassBlockStateData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BotSystem.BotGroupController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BotSystem.BotManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BotSystem.BotNickname" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BotSystem.EDRCalculator.BotEDRCalculator" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BotSystem.Multiplier" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CameraSystem.CameraMovementData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.AnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.CharacterData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.CharacterVisualData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.SubEntities.CharacterProgressData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ChatSystem.ChatMessageData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ChatSystem.PhotoMessageData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ChatSystem.PhotoMessageDataSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ChatSystem.TextMessageData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CheckPointsSystem.CheckPointsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CohortSystem.CohortDynamicParameters" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CohortSystem.CohortUserData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.Collection" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCard" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.CardGroupDropSystem.DefaultLogic.CardDropLogic" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.CardGroupDropSystem.IntervalLogic.CardDropIntervalLogic" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.CardGroupDropSystem.IntervalLogic.CardDropIntervalLogicData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.CardsDropManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionCardsDropSystem.New.CardsDropManagerSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionRarityToResourcesConvertData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionManagerSaveableData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.ExclusiveCollectionPhotoLibraryData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ExclusiveCollection.SpriteDataContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.CollectableItemData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemCollectionsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemsCollectionData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemsCollectionSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemsCollectionsManagerSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.RaritiesConfig" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.RaritiesData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.TriplePackInfo" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.UniversalShardsSystem.UniversalShardsSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTaskData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTasksManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DailyTasksSystem.DailyTasksSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Data.Combination" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Data.CombinationSettingsData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Data.GeneralGameSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DateSystem.Dialog" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DateSystem.DialogData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.DateSystem.DialogOption" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.EconomicsSystem.Data.CoefficientSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.EconomicsSystem.Data.EconomicsCoefficient" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.EconomicsSystem.Data.EconomicsRuleData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.EconomicsSystem.Data.EconomicsSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ErrorLocalizationSystem.ErrorLocalizationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameActivitySystem.GameActivityManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameActivitySystem.GameActivityManagersController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.GameEventsQueueManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventAssetLoader" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventManager/PredictionEventSaveData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventRemoteSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.PredictionEventSystem.PredictionEventRemoteSettings/PredictionEventRewardContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.LevelData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizAssetLoadController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizSaveData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.QuizSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GameEventSystem.QuizSystem.RewardPoint" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.GiftSystem.GiftData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectAssetLoadController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectShopItemsSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventBoosterSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventLevelData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.LoopEventSystem.LoopEventManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.BehaviourCallbackManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.CameraManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.DailyRewardManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.DailyRewardManagerSaveData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.ErrorManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.NicknameManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.ScreenManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.SlotManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Managers.TutorialManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ModifierSystem.IntValueModifier" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ModifierSystem.ResourceSourcesIntValueModifier" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ModifierSystem.ResourceValueModifier" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.EventGenerationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventBaseSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventCountersSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventParameters" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventType" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventsParameters" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.Events.MonopolyEventsSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.MonopolyGameModeSystem.MonopolyMapData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.NotificationSystem.DailyNotification" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.NotificationSystem.EventNotification" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.NotificationSystem.NotificationSendHandlers" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.PayAbilitySystem.PayerAbilityStatus" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.PlayerData.PlayerStatusManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.PromoSystem.PromoDiscountData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.PromoSystem.PromoReward" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.PromoSystem.SeasonPrefabSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.QuestSystem.Quest" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.QuestSystem.QuestViewData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.IntTuple" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableBool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableDouble" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableFloat" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableInt" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RemoteSettingsSystem.RemoteSettableIntTuple" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceBlockController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceBlockSystem.ResourceBlockSetting" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceRestorerSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceRestorerSettingsContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.ResourceSystem.ResourceRestorerSettingsData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgress" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.DailyProgressActivationManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.DailyProgressManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressAnimationParams" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressBlockGeneratorSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressFullGeneratorSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Data.DailyProgressSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Entities.DailyProgressBlock" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Entities.DailyProgressRewardCell" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Entities.DailyProgressRewardLine" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Entities.DailyProgressRewardTable" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Generator.DailyProgressBlockGenerator" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.Generator.DailyProgressFullGenerator" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressDoubleRewardView" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressSingleRewardView" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyProgressSystem.UI.DailyProgressTableView" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.DailyRewardSystem.DailyReward" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.Data.Reward" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.Data.RewardParameter" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.RewardContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.RewardData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.RewardManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RoomSystem.RoomPreviewData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.ClothSlotSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.Data.ClothOption" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.Data.ClothSetData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.Data.ClothSlotData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.Data.SecretCharacterAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.Data.SecretCharacterData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Characters.SecretCharacterSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.SecretCollectionData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.SecretCollectionPhotoData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.ShardsConfig" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SecretRoomSystem.Collection.ShardsData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.PredefinedCombinationPreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.RandomSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.ReelSpinSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SettingsPreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineGenerator" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineProbabilityBoostSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotMachineSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotProbabilityCurvePreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SkinPurchaseCost" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SkinRemoteData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharacterData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharacterSkinData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharactersManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharactersRemoteData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachineCharacters.SlotMachineCharactersSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.StarShopSystem.Data.StarShopOffer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.StarShopSystem.Settings.BlockPreset" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.StoreSystem.StoreItemData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tournaments.TournamentIconData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tournaments.TournamentSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tournaments.TournamentsManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.VFXInfo" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Animation.MovingAnimation" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Animation.TextAppearing" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Buttons.Toggle2DEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentResizeByText/BoxCollider2dData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentResizeByText/RectTransformData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentsColorChanger/SpriteRendererData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentsColorChanger/TextMeshProData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.Resizers.ComponentResizeByRectTransform/BoxCollider2dData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.Resizers.ComponentResizeByRectTransform/SpriteRendererData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.ProgressWindow.ProgressStepSprites" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.BattlePassIconsData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.CollectionRewardMetaData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardIconData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardIconRule" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardIdIconData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardViewData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.TapeMetaData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.TapeType" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Store.StoreBoxConfig" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Store.StoreBoxData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.WindowManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Utils.IntRange" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Utils.RangeFloat" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Utils.RangeInt" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Utils.ValueInInterval" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.VipPass.VipPassLevel/RewardInfo" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.WheelFortune.FortuneWheelManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.WheelFortune.FortuneWheelRotationSettings" preserve="nothing" serialized="true" />
+    <type fullname="AspectRatioParamsContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.BattlePassSystem.BattlePassTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CharacterSystem.LivePhotoSystem.LivePhotoAnimationController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.CollectionsTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CollectionsSystem.ItemsCollection.ItemCollectionsTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Data.SpriteSwapData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Events.HoldableButton2DEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.LoadOperationSystem.Managers.CoreGameManagerInstantiator" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.NxOffer.NxOfferBannerPopup/NxMultiplierSprite" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.RewardSystem.MultiplyRewardPopup/Settings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Roberry.AutomaticGenerator.AutomaticSequenceGeneratorSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Roberry.AutomaticGenerator.AutomaticSequenceOptionData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Roberry.CardCollection" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Roberry.RobberyModeManager" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Settings.LanguageChooseWindow/LanguageButtonsPool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.SlotSymbol" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.StoreOpenButtonView/StoreOpenButton" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.SlotMachine.UniversalSlotMachineSystem.HorizontalSlotMachine.HorizontalSlotMahchineSlotOption" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.StoreSystem.PurchaseEvent" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.StoreSystem.StoreItemPurchaseHandlerEvents" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialEighthStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialFifthStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialFirstStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialSecondStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialSeventhStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialSixthStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialTenthStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialThirdStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.CoreTutorialZeroStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.CoreTutorial.RoomTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.FortuneWheelTutorial.FortuneWheelTutorialController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.Monopoly.MonopolyEventTutorialStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.Monopoly.MonopolyModeTutorial" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.Monopoly.MonopolyThrowDicesTutorialStep" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Tutorial.TutorialDialogData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Animation.SeparateAxesScaler" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionSplitPhotoView" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionSplitPhotoViewController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Collections.CollectionTypeBackground" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Collections.ItemsCollections.ItemCollectionViewStateContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Collections.SpritesPool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ComponentResizeByText/SpriteRendererData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.ProgressPanelSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Components.Resizers.ComponentResizeByRectTransform/RectTransformData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.DateWindow.Answer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.DateWindow.DateWindowEnergyContainer" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Localization.LocalizationFormater/StringFormatSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardShowHandlerData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.RewardViewSettingsData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RewardSystem.TapeSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Robbery.AttemptsController/AttemptsViewPool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Robbery.RobberyRewardIconCollection" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.RoomSlider.RoomSlideViewAnimationController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.SlotMachineRewardWindow" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Store.CollectionsCardRarityAndCharacterId" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Tournaments.IconTransformData" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentProgressWindow/TournamentRewardViewsPool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Tournaments.TournamentRewardsWindow/TournamentRewardViewPool" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Vfx.SlotMachineVfxType" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.Vfx.VFXSlotSymbol" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.WheelFortune.FortuneWheelSlot" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.WheelFortune.FortuneWheelSlotSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Store.RewardDataInfoAnimation" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Store.RewardDataInfoDestination" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.CameraSystem.BlurSettings" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectCore.HiddenObjectItemsHighlighter" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectItemsGroup" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.HiddenObjectSystem.HiddenObjectMeta.EventWindow.HiddenObjectEventWindowProgressBarController" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Animation.ClickAnimation" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MoneyAdOption" preserve="nothing" serialized="true" />
+    <type fullname="CollegeDateSim.UI.Monopoly.MonopolyDicesSpriteContainer" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="GeneralUtils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CollegeDateSim.Utils.BuildInfoLibrary" preserve="all" />
+  </assembly>
+  <assembly fullname="I2Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="I2.Loc.LanguageSourceAsset" preserve="all" />
+    <type fullname="I2.Loc.Localize" preserve="all" />
+    <type fullname="I2.Loc.LocalizeTarget_TextMeshPro_Label" preserve="all" />
+    <type fullname="I2.Loc.EventCallback" preserve="nothing" serialized="true" />
+    <type fullname="I2.Loc.LanguageData" preserve="nothing" serialized="true" />
+    <type fullname="I2.Loc.LanguageSourceData" preserve="nothing" serialized="true" />
+    <type fullname="I2.Loc.TermData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="LeTai.TranslucentImage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LeTai.Asset.TranslucentImage.ScalableBlurConfig" preserve="all" />
+    <type fullname="LeTai.Asset.TranslucentImage.TranslucentImage" preserve="all" />
+    <type fullname="LeTai.Asset.TranslucentImage.TranslucentImageSource" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonPartsRenderer" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonRenderSeparator" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetLabelReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_ColorGradient" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.Physics2DRaycaster" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
