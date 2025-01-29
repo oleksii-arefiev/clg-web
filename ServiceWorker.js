@@ -1,9 +1,9 @@
 const cacheName = "DALS FZE-College Love Game-1.0.0";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js.unityweb",
-    "Build/Build.data.unityweb",
-    "Build/Build.wasm.unityweb",
+    "Build/5336a4b2c43054286fd70b1faa467eee.loader.js",
+    "Build/5a8355d993fd23a9e58e92f4088807c2.framework.js.unityweb",
+    "Build/1bc5152051585d060192290d8adcfaef.data.unityweb",
+    "Build/bc51ea1a0c6d4f45f5543aa1ae760036.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
