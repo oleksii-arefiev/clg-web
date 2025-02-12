@@ -75,6 +75,19 @@
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.RewardIdRewardShowHandler" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.SimpleRewardViewHandler" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.RewardResultWindow" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticRobberySequenceGenerator" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticSequenceOption" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.CellController" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.Conditions.FallInRowCondition" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.Conditions.InSequenceMaxAmountCondition" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.Conditions.IsCombinationBlockedCondition" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.Conditions.SequenceLengthConditionSwitch" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.RobberyController" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.RobberyManager" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.RobberyStartAnimationWindow" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.UI.AttemptsController" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.UI.AttemptView" preserve="all" />
+    <type fullname="CLG.Runtime.RobberySystem.UI.RobberyVFXSpeedModifier" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.Room" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.RoomController" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.RoomData" preserve="all" />
@@ -159,6 +172,13 @@
     <type fullname="CLG.Runtime.CharacterSystem.DateFaceController/FaceSkinAnimationData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterReaction/RoomReactionSkinAnimationData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterView" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableInt" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.ResourceSystem.UI.PanelStateData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticSequenceGeneratorSettings" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticSequenceOptionData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RobberySystem.CellCollection" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RobberySystem.UI.AttemptsController/AttemptsViewPool" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.RobberySystem.UI.RobberyRewardIconCollection" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.Animation.AnimationSpeedSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.Animation.DatesAnimationSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.Animation.LivePhotoAnimationSettings" preserve="nothing" serialized="true" />
@@ -181,11 +201,9 @@
     <type fullname="CLG.Runtime.FortuneWheel.FortuneWheelRotationSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.GiftSystem.GiftData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableFloat" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableInt" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceRestorerSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceRestorerSettingsContainer" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceRestorerSettingsData" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.ResourceSystem.UI.PanelStateData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RewardSystem.Data.Reward" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RewardSystem.Data.RewardData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RewardSystem.RewardViewData" preserve="nothing" serialized="true" />
@@ -218,6 +236,7 @@
   </assembly>
   <assembly fullname="CLG.Utils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CLG.Utils.NetworkConnection" preserve="all" />
+    <type fullname="CLG.Utils.RotatorDelayed" preserve="all" />
     <type fullname="CLG.Utils.ThreadManager" preserve="all" />
   </assembly>
   <assembly fullname="I2Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
