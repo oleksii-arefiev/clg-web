@@ -33,6 +33,21 @@
     <type fullname="CLG.Runtime.ChatSystem.UI.PhotoMessageView" preserve="all" />
     <type fullname="CLG.Runtime.ChatSystem.UI.PhotoViewWindow" preserve="all" />
     <type fullname="CLG.Runtime.ChatSystem.UI.TextMessageView" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.CollectionLibrary" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.CollectionManager" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.CollectionsSettings" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.CardsDropManager" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionCardReceiveView" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionCardReceiveWindow" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionCardView" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionInfoWindow" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionRewardWindow" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionSlider" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionsWindow" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionView" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionViewBlock" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionWindow" preserve="all" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.LastCollectionView" preserve="all" />
     <type fullname="CLG.Runtime.ConditionSystem.Conditions.SlotCombinationCondition" preserve="all" />
     <type fullname="CLG.Runtime.ConditionSystem.Conditions.SlotMachineTrigger" preserve="all" />
     <type fullname="CLG.Runtime.ConditionSystem.ResourceRecordTrigger" preserve="all" />
@@ -51,13 +66,39 @@
     <type fullname="CLG.Runtime.GameEventSystem.GameEventsQueueManager" preserve="all" />
     <type fullname="CLG.Runtime.GiftSystem.GiftAnimationManager" preserve="all" />
     <type fullname="CLG.Runtime.GiftSystem.RoomFadedGiftView" preserve="all" />
+    <type fullname="CLG.Runtime.GirlChooseSystem.GirlChooseManager" preserve="all" />
+    <type fullname="CLG.Runtime.GirlChooseSystem.UI.GirlChooseCardView" preserve="all" />
+    <type fullname="CLG.Runtime.GirlChooseSystem.UI.GirlChooseWindow" preserve="all" />
     <type fullname="CLG.Runtime.Localization.UI.LanguageChooseWindow" preserve="all" />
     <type fullname="CLG.Runtime.Localization.UI.LanguageName" preserve="all" />
     <type fullname="CLG.Runtime.Localization.UI.LanguageSelectButton" preserve="all" />
     <type fullname="CLG.Runtime.ManagerSystem.CoreGameManager" preserve="all" />
     <type fullname="CLG.Runtime.ManagerSystem.GameManager" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.MonopolyManager" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.MonopolyMapsLibrary" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.MonopolyScreen" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.MonopolySettingsLibrary" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.AnswerOptionTextView" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.ContinueButton" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.CutSceneAnimationController" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.CutSceneGirlAnimationController" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyArrowController" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyCutSceneScreen" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyDateNamePanelView" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyDateWindow" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyDicesView" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyEnterCutSceneScreen" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyMap" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyPlayerController" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyRewardsViewPanel" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyRewardsWindow" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyRewardView" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyRollDicesButton" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyTile" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.QuestionTextView" preserve="all" />
     <type fullname="CLG.Runtime.NetworkSystem.NetworkManager" preserve="all" />
     <type fullname="CLG.Runtime.PayAbilitySystem.PayAbilityManager" preserve="all" />
+    <type fullname="CLG.Runtime.PlayerDataSystem.PlayerStatusManager" preserve="all" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceManager" preserve="all" />
     <type fullname="CLG.Runtime.ResourceSystem.UI.ResourceIndicatorAnimationController" preserve="all" />
     <type fullname="CLG.Runtime.ResourceSystem.UI.ResourceIndicatorController" preserve="all" />
@@ -69,6 +110,8 @@
     <type fullname="CLG.Runtime.RewardSystem.UI.ChestRewardController" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.FinalRewardResultController" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.BoxRewardShowHandler" preserve="all" />
+    <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.CollectionCardRewardShowHandler" preserve="all" />
+    <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.CollectionCardRewardView" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.CommonRewardShowHandler" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.NoneRewardShowHandler" preserve="all" />
     <type fullname="CLG.Runtime.RewardSystem.UI.Handlers.RewardIconShowHandler" preserve="all" />
@@ -93,11 +136,16 @@
     <type fullname="CLG.Runtime.RoomSystem.RoomData" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.RoomLibrary" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.RoomManager" preserve="all" />
+    <type fullname="CLG.Runtime.RoomSystem.UI.GirlRoomView" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.UI.ProgressBar" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.UI.ProgressStepView" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.UI.ProgressWindow" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.UI.ProgressWindowButton" preserve="all" />
     <type fullname="CLG.Runtime.RoomSystem.UI.RoomDialogView" preserve="all" />
+    <type fullname="CLG.Runtime.RoomSystem.UI.RoomSlider" preserve="all" />
+    <type fullname="CLG.Runtime.RoomSystem.UI.RoomSliderNotifier" preserve="all" />
+    <type fullname="CLG.Runtime.RoomSystem.UI.RoomSliderWindow" preserve="all" />
+    <type fullname="CLG.Runtime.RoomSystem.UI.RoomSlideView" preserve="all" />
     <type fullname="CLG.Runtime.ScreenSystem.GameScreenData" preserve="all" />
     <type fullname="CLG.Runtime.ScreenSystem.GameScreenLibrary" preserve="all" />
     <type fullname="CLG.Runtime.ScreenSystem.GameScreenManager" preserve="all" />
@@ -125,30 +173,49 @@
     <type fullname="CLG.Runtime.SlotMachine.Vfx.ParticlesTextureApplier" preserve="all" />
     <type fullname="CLG.Runtime.SlotMachine.Vfx.SlotMachineVfxController" preserve="all" />
     <type fullname="CLG.Runtime.SlotMachine.Vfx.SlotMachineVfxLauncher" preserve="all" />
+    <type fullname="CLG.Runtime.TutorialSystem.TutorialManager" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.AnimationCompositionController" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.ButtonScaler" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.MassColorAnimation" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.MovementAnimation" preserve="all" />
+    <type fullname="CLG.Runtime.UI.AnimationComponents.ParallaxEffectAnimation" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.PulseAnimation" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.SpriteColorAnimation" preserve="all" />
     <type fullname="CLG.Runtime.UI.AnimationComponents.Teleport" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.AutoSortingOrderChanger" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.Button2D" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.CommonParticleController" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.FlexibleGridLayoutGroup" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.ImageProgressFill" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.KeyboardButton" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.ParticleStarter" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.ProgressSpriteChangePosition" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.ScaleObjectToFitRect" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.ShiftButton" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.ShiftKeyboardButton" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.SliderButton" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.SliderProgressFill" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.SpriteRendererSizeByText" preserve="all" />
+    <type fullname="CLG.Runtime.UI.Common.SwiperKeyboardButton" preserve="all" />
     <type fullname="CLG.Runtime.UI.Common.ZigzagGridLayout" preserve="all" />
     <type fullname="CLG.Runtime.UI.MainMenu.MainMenuButton" preserve="all" />
+    <type fullname="CLG.Runtime.UI.MainMenu.MainMenuManager" preserve="all" />
     <type fullname="CLG.Runtime.UI.MainMenu.MainMenuWindow" preserve="all" />
     <type fullname="CLG.Runtime.UI.SelectableGroup" preserve="all" />
+    <type fullname="CLG.Runtime.UI.UniversalSlider.PageIndicatorController" preserve="all" />
+    <type fullname="CLG.Runtime.UI.UniversalSlider.PageIndicatorSlider" preserve="all" />
+    <type fullname="CLG.Runtime.UI.UniversalSlider.PageIndicatorView" preserve="all" />
+    <type fullname="CLG.Runtime.UI.UniversalSlider.SwipeController" preserve="all" />
     <type fullname="CLG.Runtime.UI.WindowSystem.ModalCanvas" preserve="all" />
     <type fullname="CLG.Runtime.UI.WindowSystem.WindowLibrary" preserve="all" />
     <type fullname="CLG.Runtime.UI.WindowSystem.WindowManager" preserve="all" />
     <type fullname="CLG.Runtime.UI.WindowSystem.WindowOpen" preserve="all" />
     <type fullname="CLG.Runtime.Utils.BehaviourCallbackManager" preserve="all" />
     <type fullname="CLG.Runtime.Utils.CameraFinder" preserve="all" />
+    <type fullname="CLG.Runtime.Utils.Pulse" preserve="all" />
+    <type fullname="CLG.Runtime.Utils.RebuildLayout" preserve="all" />
+    <type fullname="CLG.Runtime.Utils.SpriteOrderBreaker" preserve="all" />
+    <type fullname="CLG.Runtime.Utils.SpriteOrderChanger" preserve="all" />
     <type fullname="CLG.Runtime.Vfx.BaseParticleController" preserve="all" />
     <type fullname="CLG.Runtime.Vfx.EnergyVFXSpeedModifier" preserve="all" />
     <type fullname="CLG.Runtime.Vfx.MoneyVFXSpeedModifier" preserve="all" />
@@ -156,6 +223,19 @@
     <type fullname="CLG.Runtime.Vfx.SpriteParticleController" preserve="all" />
     <type fullname="CLG.Runtime.Vfx.SymbolVFXSpeedModifier" preserve="all" />
     <type fullname="CollegeDateSim.GiftSystem.RoomGiftView" preserve="all" />
+    <type fullname="CollegeDateSim.ParticleSystemUtils.ParticleFollower" preserve="all" />
+    <type fullname="CLG.Runtime.MonopolySystem.UI.MonopolyDicesSpriteContainer" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.ResourceSystem.UI.PanelStateData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.UI.AnimationComponents.ClickAnimation" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.UI.AnimationComponents.TextAppearing" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CharacterSystem.DateBodyController/BodySkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CharacterSystem.DateFaceController/FaceSkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterReaction/RoomReactionSkinAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterView" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.DateSystem.UI.DateParticleController/MoveToTargetJob" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.UI.AnimationComponents.Scaler" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.UI.Common.Button2DEvent" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.Vfx.ParticleSystemEvent" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceSourceType" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.SlotMachine.Symbols.SlotSymbolData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.SlotMachine.UI.ProgressPanelSettings" preserve="nothing" serialized="true" />
@@ -164,16 +244,7 @@
     <type fullname="CLG.Runtime.FortuneWheel.FortuneWheelSlot" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.FortuneWheel.FortuneWheelSlotSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableString" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.DateSystem.UI.DateParticleController/MoveToTargetJob" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.UI.AnimationComponents.Scaler" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.UI.Common.Button2DEvent" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.Vfx.ParticleSystemEvent" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.CharacterSystem.DateBodyController/BodySkinAnimationData" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.CharacterSystem.DateFaceController/FaceSkinAnimationData" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterReaction/RoomReactionSkinAnimationData" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.CharacterSystem.RoomCharacterView" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableInt" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.ResourceSystem.UI.PanelStateData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticSequenceGeneratorSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RobberySystem.AutomaticGenerator.AutomaticSequenceOptionData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RobberySystem.CellCollection" preserve="nothing" serialized="true" />
@@ -194,12 +265,33 @@
     <type fullname="CLG.Runtime.ChatSystem.PhotoMessageData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ChatSystem.PhotoMessageDataSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ChatSystem.TextMessageData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.Collection" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.CollectionCard" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.CollectionRarityToResourcesConvertData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.CardGroupDropLogic.CardDropIntervalLogic" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.CardGroupDropLogic.CardDropIntervalLogicData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.CardGroupDropLogic.CardDropLogic" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.CardsDropManagerSettings" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.DynamicGroupsSystem.DynamicGroupData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.DynamicGroupsSystem.DynamicGroupProbabilitiesChangeData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.DynamicGroupsSystem.DynamicGroupProbabilityDistributionRule" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.DropSystem.DynamicGroupsSystem.DynamicGroupsController" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.RaritiesConfig" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.RaritiesData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.AnimationData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.Dialog" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.DialogData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.DialogOption" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.FortuneWheel.FortuneWheelRotationSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.GiftSystem.GiftData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.EventGenerationData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventBaseSettings" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventCountersSettings" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventParameters" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventType" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventsParameters" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.Events.MonopolyEventsSettings" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.MonopolySystem.MonopolyMapData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RemoteSettingsSystem.RemoteSettableFloat" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceRestorerSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.ResourceSystem.ResourceRestorerSettingsContainer" preserve="nothing" serialized="true" />
@@ -227,17 +319,20 @@
     <type fullname="CLG.Runtime.SlotMachine.Settings.SlotMachineSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.SlotMachine.SlotMachineProbabilityBoostSettings" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.UI.WindowSystem.WindowData" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionSplitPhotoView" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionSplitPhotoViewController" preserve="nothing" serialized="true" />
+    <type fullname="CLG.Runtime.CollectionSystem.UI.CollectionTypeBackground" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.UI.Answer" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.DateSystem.UI.DateWindowEnergyContainer" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.Localization.UI.LanguageChooseWindow/LanguageButtonsPool" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RewardSystem.UI.RewardShowHandlerData" preserve="nothing" serialized="true" />
     <type fullname="CLG.Runtime.RewardSystem.UI.TapeSettings" preserve="nothing" serialized="true" />
-    <type fullname="CLG.Runtime.UI.AnimationComponents.TextAppearing" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="CLG.Utils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CLG.Utils.NetworkConnection" preserve="all" />
     <type fullname="CLG.Utils.RotatorDelayed" preserve="all" />
     <type fullname="CLG.Utils.ThreadManager" preserve="all" />
+    <type fullname="CLG.Utils.ValueInInterval" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="I2Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="I2.Loc.Localize" preserve="all" />
@@ -267,17 +362,18 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_ColorGradient" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
@@ -327,7 +423,11 @@
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
     <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -354,8 +454,8 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
   </assembly>
